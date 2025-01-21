@@ -26,6 +26,13 @@ document.getElementById("about").style.color="black";
 
 
 }
+function newsLetter(){
+    
+    alert("Subscribed to our Newsletter");
+    
+
+}
+
 function shops(){
 mainPage.style.display="none";
 blog.style.display="none";
@@ -116,6 +123,7 @@ function show(img){
 
 
 function addCart(){
+    
     alert("Added To Cart");
     location.reload()
 }

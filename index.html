@@ -25,7 +25,7 @@
                     <a id="blog" onclick="blogs()">Blog</a>
                     <a id="about" onclick="abouts()">About</a>
                     <a id="contact" onclick="contacts()">Contact</a>
-                    <i  class="fa-solid fa-cart-shopping" onclick="showCart()"> (<span id="cart-count">0</span>)</i>
+                    <i class="fa-solid fa-cart-shopping" onclick="showCart()"> (<span id="cart-count">0</span>)</i>
 
                 </li>
             </ul>
@@ -38,7 +38,7 @@
                 <h2>NEOBASKET.....</h2>
                 <h1 class="top">BRIGHTENING THE FUTURE OF SMART SHOPPING</h1>
                 <p>Super value deals on all products</p>
-                <button>Explore</button>
+                <button onclick="shops()">Explore </button>
             </div>
             <img src="m3.png" alt="">
         </div>
@@ -109,7 +109,8 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i> <br>
-                        <button class="add-to-cart" data-id="4" data-name="Product 4" data-price="15">Add to Cart</button>
+                        <button class="add-to-cart" data-id="4" data-name="Product 4" data-price="15">Add to
+                            Cart</button>
                     </div>
                 </div>
 
@@ -122,7 +123,8 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i> <br>
-                        <button class="add-to-cart" data-id="5" data-name="Product 5" data-price="15">Add to Cart</button>
+                        <button class="add-to-cart" data-id="5" data-name="Product 5" data-price="15">Add to
+                            Cart</button>
                     </div>
                 </div>
 
@@ -135,7 +137,8 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i> <br>
-                        <button class="add-to-cart" data-id="6" data-name="Product 6" data-price="15">Add to Cart</button>
+                        <button class="add-to-cart" data-id="6" data-name="Product 6" data-price="15">Add to
+                            Cart</button>
                     </div>
                 </div>
             </div>
@@ -204,9 +207,10 @@
                     Now</h1>
                 <h2>Special Price</h2>
                 <h2>$9</h2>
-                <p>Original Product </p>
-                <p>Quality Assured </p>
-                <p>Verified Seller </p>
+
+                <p><i class="fa-solid fa-certificate"> </i>Original Product </p>
+                <p><i class="fa-solid fa-industry"> </i>Quality Assured </p>
+                <p><i class="fa-solid fa-list-check"> </i> Verified Seller </p>
                 <div class="btn">
                     <button>Buy Now</button>
                     <button onclick="addCart()">Add to Cart</button>
@@ -260,9 +264,11 @@
                 <h1>Sign Up for NewsLetter</h1>
                 <p></p>
             </div>
-            <div class="inp">
-                <input type="text" placeholder="Enter Email">
-                <button>Sign Up</button>
+            <div>
+                <div class="inp">
+                    <input type="text" placeholder="Enter Email">
+                    <button onclick="newsLetter()">Sign Up</button>
+                </div>
             </div>
         </div>
 

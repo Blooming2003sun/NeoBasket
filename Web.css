@@ -117,9 +117,12 @@ ul li i:hover{
     color: white;
     font-size: 19px;
     margin-top: 11px;
+    
 }
-.crdText i{
-    color: rgb(255, 149, 0);
+.crdText button:hover{
+    border: 3px solid rgb(3, 128, 128);
+    background-color: transparent;
+    color: rgb(2, 121, 121);
 }
 
 .blog{
@@ -132,11 +135,11 @@ ul li i:hover{
     border-radius: 11px;
    
 }
-.blog:hover{
+/* .blog:hover{
     transition: 0.6s ease;
     width: 520px;
     height: 320px;
-}
+} */
 .blog img{
     padding: 22px;
     width: 85%;
@@ -163,9 +166,20 @@ top: 33px;
     background-color:rgb(2, 2, 66);
     padding: 43px;
 }
+::placeholder {
+    text-align: center;
+}
+input:focus::placeholder {
+    color: transparent;
+}
 .inp{
     display: flex;
 }
+.form-inline {
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
 .inp input{
     width: 330px;
     height: 33px;
@@ -180,6 +194,10 @@ top: 33px;
     color: white;
     border: none;
 }
+
+
+
+
 
 .footer{
     display: flex;
